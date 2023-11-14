@@ -11,6 +11,8 @@
 ## 文章
 [耗时七天，我写完了自己的第一个小程序](https://github.com/wyh-code/blog/issues/3#issue-1992152175)
 
+[一份自动部署VuePress到Github Pages的脚本](https://github.com/wyh-code/blog/issues/4#issue-1992351915)
+
 
 ## 小程序
 
