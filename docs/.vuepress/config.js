@@ -1,6 +1,6 @@
 module.exports = {
-  title: '搭建自己的博客',
-  description: '测试搭建自己的博客',
+  title: '凡铁的博客',
+  description: '一个写代码、码字的地方',
   base: '/blog/',
   theme: 'reco',
   locales: {
@@ -22,56 +22,44 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '欢迎学习',
+        title: '很高兴认识你',
         path: '/',
-        collapsable: false, // 不折叠
-        children: [
-          { title: "学前必读", path: "/" }
-        ]
+        // collapsable: false, // 不折叠
       },
       {
-        title: "读书后",
-        path: '/books/read',
+        title: "文章",
+        path: '/blog/一份自动部署VuePress到GithubPages的脚本',
         // collapsable: false, // 不折叠
         children: [
           { 
-            title: "关于读书的一些事", 
-            path: "/books/read"
+            title: "一份自动部署VuePress到GithubPages的脚本", 
+            path: "/blog/一份自动部署VuePress到GithubPages的脚本"
           },
           { 
-            title: "史记", 
-            path: "/books/史记/五帝本纪",
-            children: [
-              { title: "五帝本纪", path: "/books/史记/五帝本纪" },
-              { title: "高祖本纪", path: "/books/史记/高祖本纪" }
-            ]
+            title: "耗时七天，我写完了自己的第一个小程序", 
+            path: "/blog/耗时七天，我写完了自己的第一个小程序"
           },
-          { 
-            title: "恶意", 
-            path: "/books/恶意/第一章",
-            children: [
-              { title: "第一章", path: "/books/恶意/第一章" },
-              { title: "第二章", path: "/books/恶意/第二章" }
-            ]
-          }
         ],
       },
       {
         title: "javascript",
-        path: '/javaScript/js事件循环',
-        // collapsable: false, // 不折叠
+        path: '/javaScript/节流防抖',
         children: [
-          { title: "js事件循环", path: "/javaScript/js事件循环" },
           { title: "节流防抖", path: "/javaScript/节流防抖" }
         ],
       },
       {
-        title: "React",
-        path: '/react/react',
-        // collapsable: false, // 不折叠
+        title: "HTML5+JavaScript动画基础",
+        path: '/animated/js动画原理',
         children: [
-          { title: "React 18.2", path: "/react/react" },
-          { title: "JSX", path: "/react/JSX" }
+          { title: "js动画原理", path: "/animated/js动画原理" }
+        ],
+      },
+      {
+        title: "小程序",
+        path: '/mini/初始小程序云开发',
+        children: [
+          { title: "初始小程序云开发", path: "/mini/初始小程序云开发" }
         ],
       }
     ]

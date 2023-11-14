@@ -1,10 +1,8 @@
 ---
-title: Hello VuePress
+title: 很高兴认识你
 author: wyh
-date: '2021-12-12'
+date: '2023-11-14'
 ---
 
-## 最初
-这是主页说明
+## 关于自己
 
-再次更新
