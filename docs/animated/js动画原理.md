@@ -1,3 +1,9 @@
+---
+title: 一份自动部署VuePress到GithubPages的脚本
+author: wyh
+date: '2020-01-10'
+---
+
 ## 前言
 动画是一个创造运动假象的过程。几乎所有的投影运动媒体都采用帧实现运动。—— 《HTML5+JavaScript动画基础》
 

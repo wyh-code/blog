@@ -1,3 +1,9 @@
+---
+title: 一份自动部署VuePress到GithubPages的脚本
+author: wyh
+date: '2023-11-14'
+---
+
 ## 如题，脚本如下：
 ```deploy.sh
 #!/bin/bash

@@ -1,6 +1,6 @@
 module.exports = {
   title: '凡铁的博客',
-  description: '一个写代码、码字的地方',
+  description: '一个码字的地方，博客，技术，前端',
   base: '/blog/',
   theme: 'reco',
   locales: {
@@ -8,6 +8,9 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
+  head: [
+    ['link', { rel: 'icon', href: '../image/favicon.png' }]
+  ],
   themeConfig: {
     subSidebar: 'auto',
     nav: [
@@ -16,6 +19,7 @@ module.exports = {
         text: '其他相关链接',
         items: [
           { text: 'Github', link: 'https://github.com/wyh-code' },
+          { text: '掘金', link: 'https://juejin.cn/user/3157453124154920' },
           { text: '掘金', link: 'https://juejin.cn/user/3157453124154920' }
         ]
       }
@@ -27,9 +31,9 @@ module.exports = {
         // collapsable: false, // 不折叠
       },
       {
-        title: "文章",
+        title: "个人文章",
         path: '/blog/一份自动部署VuePress到GithubPages的脚本',
-        // collapsable: false, // 不折叠
+        // collapsable: false,
         children: [
           { 
             title: "一份自动部署VuePress到GithubPages的脚本", 
@@ -42,8 +46,9 @@ module.exports = {
         ],
       },
       {
-        title: "javascript",
+        title: "javascript相关",
         path: '/javaScript/节流防抖',
+        // collapsable: false,
         children: [
           { title: "节流防抖", path: "/javaScript/节流防抖" }
         ],
@@ -51,6 +56,7 @@ module.exports = {
       {
         title: "HTML5+JavaScript动画基础",
         path: '/animated/js动画原理',
+        // collapsable: false,
         children: [
           { title: "js动画原理", path: "/animated/js动画原理" }
         ],
@@ -58,6 +64,7 @@ module.exports = {
       {
         title: "小程序",
         path: '/mini/初始小程序云开发',
+        // collapsable: false,
         children: [
           { title: "初始小程序云开发", path: "/mini/初始小程序云开发" }
         ],
