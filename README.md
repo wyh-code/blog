@@ -2,7 +2,11 @@
 你好，很高兴认识你！
 
 ## 相关个人链接
+[GitHub](https://github.com/wyh-code)
 
+[GitHub Pages](https://wyh-code.github.io/blog/)
+
+[掘金](https://juejin.cn/user/3157453124154920)
 
 ## 文章
 [耗时七天，我写完了自己的第一个小程序](https://github.com/wyh-code/blog/issues/3#issue-1992152175)
