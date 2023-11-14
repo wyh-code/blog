@@ -1,5 +1,5 @@
 ---
-title: 一份自动部署VuePress到GithubPages的脚本
+title: js动画原理
 author: wyh
 date: '2020-01-10'
 ---

@@ -20,7 +20,7 @@ module.exports = {
         items: [
           { text: 'Github', link: 'https://github.com/wyh-code' },
           { text: '掘金', link: 'https://juejin.cn/user/3157453124154920' },
-          { text: '掘金', link: 'https://juejin.cn/user/3157453124154920' }
+          { text: '慕课网', link: 'https://www.imooc.com/u/4173992/articles' }
         ]
       }
     ],
