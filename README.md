@@ -1,5 +1,7 @@
-
+## 微信
 你好，很高兴认识你！
+
+<img src='./docs/image/owner.png' height='150'/>
 
 ## 相关个人链接
 [GitHub](https://github.com/wyh-code)
@@ -10,12 +12,10 @@
 
 [慕课网](https://www.imooc.com/u/4173992/articles)
 
-## 微信
-![了账](./docs/image/owner.jpg)
-
 ## 个人作品
 `了账` 一款简洁的记账小程序。
-![了账](./docs/image/lz-11.png)
+
+<img src='./docs/image/lz-11.png' height='150'/>
 
 ## 个人文章
 
