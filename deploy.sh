@@ -14,7 +14,7 @@ git branch -D pages
 # 添加工作区所有变化到暂存区
 git add -A
 # 将暂存区里的改动提交到本地的版本库
-git commit -m 'add'
+git commit -m $1
 
 # 如果不存在 .git 证明不是git仓库，需要初始化git仓库
 else
@@ -24,7 +24,7 @@ git init
 # 添加工作区所有变化到暂存区
 git add -A
 # 将暂存区里的改动提交到本地的版本库
-git commit -m 'add'
+git commit -m $1
 # 命名当前分支
 git branch -M master
 # 关联远端仓库
@@ -46,7 +46,7 @@ mv ./dist/ ./docs/
 
 # 提交更新
 git add -A
-git commit -m 'deploy'
+git commit -m $1
 git push --set-upstream -f origin pages
 
 # 回到主分支
