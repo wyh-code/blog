@@ -31,6 +31,10 @@ module.exports = {
       //   // collapsable: false, // 不折叠
       // },
       { 
+        title: "老生常谈，JS中数学计算精度问题的解决方案", 
+        path: "/math/math"
+      },
+      { 
         title: "一份自动部署VuePress到GithubPages的脚本", 
         path: "/blog/一份自动部署VuePress到GithubPages的脚本"
       },
