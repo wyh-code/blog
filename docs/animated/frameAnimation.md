@@ -38,7 +38,7 @@ movie(frames);
 
 效果图如下： 
 
-![](../image/t2oaga2asx.gif)
+![](./images/t2oaga2asx.gif)
 
 ### 动态动画   
 
@@ -81,7 +81,7 @@ movice()
 
 效果图如下： 
 
-![](../image/16f84d789b5cfa83.gif)
+![](./images/16f84d789b5cfa83.gif)
 
 ## eventloop
 我们知道 `js` 是单线程，代码自上至下执行时，遇到宏任务则会添加进宏任务队列，遇到微任务则会添加进微任务队列。
@@ -136,7 +136,7 @@ test()
 
 效果图如下：
 
-![](../image/16f84d7c337abf7a.gif)
+![](./images/16f84d7c337abf7a.gif)
 
 通过代码打印，我们可以清楚的看到 `setTimeout` 的不精确性。
 
@@ -236,7 +236,7 @@ function animated(target, props, duration) {
 
 ```
 效果图如下：
-![](../image/16f8b5a3c400e90e.gif)
+![](./images/16f8b5a3c400e90e.gif)
 
 通过观察效果图，我们发现，当最后一次校验进度时，若超出临界值则直接停止，可是在上一次更新信息时，进度还不到百分百，如果直接停止，则会造成细微的误差。
 
@@ -270,7 +270,7 @@ function animated(target, props, duration) {
 ```
 
 效果图如下：
-![](../image/16f8b5a0834c44d9.gif)
+![](./images/16f8b5a0834c44d9.gif)
 
 现在，我们已经完成了基本的逻辑流程，只要用 `setStyle` 方法更新信息即可完成动画。  
 
@@ -297,7 +297,7 @@ function getStyle(cssInfo, props, percent){
 ```
 
 效果图如下：
-![](../image/16f8b5a637890e34.gif)
+![](./images/16f8b5a637890e34.gif)
 
 ## 最终效果
 以上，我们已经完成了一个基本的动画函数，我们还可以通过设置 `left`,`top`,`right`,`bottom`, `margin` 等属性，来实现位置的移动。
@@ -314,7 +314,7 @@ function getStyle(cssInfo, props, percent){
 ```
 
 效果图如下：
-![](../image/16f8b5a3255f69c4.gif)
+![](./images/16f8b5a3255f69c4.gif)
 
 
 当然，这个函数还有很多需要优化的地方，例如我们最后传入的 `margin-left`，并不能用 `marginLeft` 这种驼峰的形式传入。我们还需要在 `getStyle` 中做大量的判断，来实现对 `background`, `transform`, `opacity` 等等属性的兼容。还可以在动画中加入三角函数运算，使得动画的渐变更加平滑。等等... ...

@@ -36,19 +36,19 @@ module.exports = {
       },
       { 
         title: "一份自动部署VuePress到GithubPages的脚本", 
-        path: "/blog/一份自动部署VuePress到GithubPages的脚本"
+        path: "/githubPage/githubPage"
       },
       { 
         title: "耗时七天，我写完了自己的第一个小程序", 
-        path: "/blog/耗时七天，我写完了自己的第一个小程序"
+        path: "/liaozhang/liaozhang"
       },
       { 
         title: "节流防抖", 
-        path: "/javaScript/节流防抖" 
+        path: "/throttling/throttling" 
       },
       { 
         title: "js动画原理", 
-        path: "/animated/js动画原理" 
+        path: "/animated/frameAnimation" 
       }
       // {
       //   title: "个人文章",

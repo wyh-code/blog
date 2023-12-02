@@ -98,59 +98,59 @@ yarn dev # npm run dev
 
 ## 新建github仓库
 
-![截屏2023-11-13 23.17.04.png](../image/press-1.png)
+![截屏2023-11-13 23.17.04.png](./images/press-1.png)
 
 ## 添加项目配置
 1、配置部署站点的基础路径 <code>此处应为github 仓库名</code>[更多配置](https://vuepress.vuejs.org/zh/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)
 
-![截屏2023-11-14 11.49.30.png](../image/press-2.png)
+![截屏2023-11-14 11.49.30.png](./images/press-2.png)
 
 ## 添加脚本
 1、在VuePress文档中新建`deploy.sh`（复制最上边脚本）
 
-![截屏2023-11-14 10.55.07.png](../image/press-3.png)
+![截屏2023-11-14 10.55.07.png](./images/press-3.png)
 
 2、复制github仓库地址
 
-![截屏2023-11-13 23.29.28.png](../image/press-4.png)
+![截屏2023-11-13 23.29.28.png](./images/press-4.png)
 
 3、修改脚本远端仓库地址
 
-![截屏2023-11-14 10.59.11.png](../image/press-5.png)
+![截屏2023-11-14 10.59.11.png](./images/press-5.png)
 
 4、添加忽略文件`.gitignore`
 
-![截屏2023-11-14 00.14.20.png](../image/press-6.png)
+![截屏2023-11-14 00.14.20.png](./images/press-6.png)
 
 ## 部署文档
 在根目录执行 `sh deploy.sh` 命令
 
 
-![截屏2023-11-14 11.04.05.png](../image/press-7.png)
+![截屏2023-11-14 11.04.05.png](./images/press-7.png)
 
 ## 配置github
 1、进入Setting页
 
-![截屏2023-11-14 11.09.28.png](../image/press-8.png)
+![截屏2023-11-14 11.09.28.png](./images/press-8.png)
 
 2、选择分支及文档目录
 
-![截屏2023-11-14 11.19.41.png](../image/press-9.png)
+![截屏2023-11-14 11.19.41.png](./images/press-9.png)
 
 3、刷新页面号，获取站点URL
 
-![截屏2023-11-14 11.23.19.png](../image/press-10.png)
+![截屏2023-11-14 11.23.19.png](./images/press-10.png)
 
 4、复制URL，在浏览器窗口打开，即可看到部署好的博客站点
 
-![截屏2023-11-14 11.47.57.png](../image/press-11.png)
+![截屏2023-11-14 11.47.57.png](./images/press-11.png)
 
 ### <code>注意:</code>
 **生成站点地址会有几分钟的延迟，若刷新页面没有出现站点地址，请耐心等待几分钟**
 
 **文档只可放在根目录（/）或（/docs）目录下：**
 
-![截屏2023-11-14 11.28.54.png](../image/press-12.png)
+![截屏2023-11-14 11.28.54.png](./images/press-12.png)
 
 ## 结语  
 若有错误，请务必给予指正。      

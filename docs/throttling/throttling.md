@@ -59,7 +59,7 @@ function debounce(fn, wait){
 }
 ```
 效果图：
-![debounce](../image/debounce.gif)
+![debounce](./images/debounce.gif)
 ### 节流
 节流函数的实现有两种方式：  
 &emsp;1、时间戳   
@@ -84,7 +84,7 @@ function throttle(fn, wait){
 }
 ```
 效果图：
-![时间戳节流](../image/timestamp.gif)
+![时间戳节流](./images/timestamp.gif)
 
 
 **定时器实现**
@@ -109,7 +109,7 @@ function throttle(fn, wait){
 }
 ```
 效果图：
-![定时器节流](../image/setTimeOut.gif)
+![定时器节流](./images/setTimeOut.gif)
 ## 改进
 通过以上处理，我们已经可以对高频事件的执行频率及时机加以控制，但是，通过观察我们发现上述代码还存在以下问题：    
 &emsp;1、在防抖函数中，鼠标初次进入色块时，回调函数未执行   
