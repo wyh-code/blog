@@ -139,8 +139,12 @@ const getPower = (a, b, c) => {
 const compare = (n) => {
   const result = Math.round(n);
 
-  // 如差值小于 Number.EPSILON 则认为和取整之后的数字相等
-  return n - result < Number.EPSILON ? result : n;
+  /**
+  * 如差值小于容差则认为和取整之后的数字相等
+  * Number.EPSILON * offset 为根据数量级调整后的容差
+  */ 
+  const offset = Number((4788.4 * 100).toString().split('.')[0])
+  return Math.abs(n - result) < Number.EPSILON * offset ? result : n;
 }
 
 var a = 19.9;
